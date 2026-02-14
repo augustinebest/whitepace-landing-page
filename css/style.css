@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #043873;
+    padding: 20px 10px 20px 10px;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+    list-style: none;
+}
+
+li {
+    color: white;
+    font-family: DM Sans, sans-serif;
+    margin-right: 60px;
+}
+
+.logo-name {
+    color: white;
+    font-family: DM Sans, sans-serif;
+}
+
+nav {
+    width: 80%;
+    /* border: 1px solid red; */
+    margin: auto;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links {
+    /* border: 1px solid red; */
+}
+
+#login-btn {
+    background-color: #FFE492;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#try-free-btn {
+    background-color: #4F9CF9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px 10px 20px;
+    color: white
+}
