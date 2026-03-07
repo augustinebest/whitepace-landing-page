@@ -129,3 +129,67 @@ nav {
 .hero-col-1-div {
     margin-top: 50px;
 }
+
+.h1-pro-font {
+    font-size: 80px;
+    color: black;
+    font-family: DM Sans, sans-serif;
+}
+
+.h4-pro-font {
+    color: black;
+    font-family: DM Sans, sans-serif;
+    font-weight: 400;
+}
+
+.pro-mag-section {
+    background-color: white;
+    height: 92vh;
+    /* border: 3px solid green; */
+    padding-top: 200px;
+    position: relative;
+}
+
+.pro-mag-bg {
+    background-image: url("../images/prog-ma.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    bottom: 0;
+}
+
+.work-section {
+    background-color: white;
+    height: 92vh;
+    padding-top: 200px;
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.work-column-1 {
+    display: flex;
+    align-items: center;
+}
+
+.work-right-column {
+    height: 824px;
+    display: flex;
+}
+
+.work-column-2 {
+    width: 60%;
+    height: 824px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-bg {
+    width: 710px;
+    height: 661px;
+    background-image: url("../images/work-together.png");
+    background-repeat: no-repeat;
+}
